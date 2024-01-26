@@ -1,0 +1,12 @@
+
+Main assignment database page: https://web.njit.edu/~vgp5/Assignment3.html
+
+Stylist PHP: https://web.njit.edu/~vgp5/Stylist.php
+
+Client PHP:  https://web.njit.edu/~vgp5/Client.php
+
+Order PHP:   https://web.njit.edu/~vgp5/Order.php
+
+Appointment PHP: https://web.njit.edu/~vgp5/Appoint.php
+
+Style3css: https://web.njit.edu/~vgp5/style3.css

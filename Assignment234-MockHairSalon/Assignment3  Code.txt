@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ 
+<html lang = "en">
+
+<head> 
+	<title> The Art Of Hair </title>
+	<meta charset = "utf-8"/> 
+		
+	<link rel="stylesheet" href="style3.css" type="text/css"/>
+
+</head>
+ 
+<body>
+
+	<div class = "box" position = "absolute">
+		<table id = "form">
+			<th id="th2">
+			<div class = "title"> <h1> The Art Of Hair </h1></div>
+			<br/>
+			<form action = "https://web.njit.edu/~vgp5/Stylist.php" method = "post" >
+				<input type = "submit" value = "Stylist DataBase" id = "SDB"/>	
+			</form>
+			<form action = "https://web.njit.edu/~vgp5/Client.php" method = "post" >
+				<input type = "submit" value = "Client Data Base" id = "CDB"/>	
+			</form>
+			<form action = "https://web.njit.edu/~vgp5/Order.php" method = "post">
+				<input type = "submit" value = "Order Details" id = "OD" />	
+			</form>
+			<form action = "https://web.njit.edu/~vgp5/Appoint.php" method = "post">
+				<input type = "submit" value = "Appointment Info." id = "AI"/>	
+			</form>
+			</th>
+		</table>
+		
+	
+	</div>
+</body>
+  
+ </html>
