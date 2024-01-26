@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Art of Hair</title>
+		<link type="text/css" rel="stylesheet" href="style2.css"/>
+		<script type="text/javascript" rel="javascript" src="jscript.js"></script>
+	
+    </head>
+    
+	<body>
+        <div class="form-center">
+		<form name = "Form" class="box" >
+            <h1>The Art of Hair</h1>
+            <h2> Log in</h2>
+            <p> All Fields * are required</p>
+            
+            *First Name<input type = "text" name="FirstName" placeholder="Enter First Name"  id="First" > <div class="alert" id="FnErr"></div>
+            
+            
+            *Last Name<input type = "text" name = "LastName" placeholder="Enter Last Name" id="Last"  > <div class="alert" id="LnErr"></div>
+            
+            
+            *Password<input type = "password" name = "PassWord" placeholder="Enter Password" id="PassWord"  > <div class="alert" id="PwErr"></div>
+            
+            
+            *Stylist ID#<input type = "text" name="IDN" placeholder="Enter ID number" id="IDN" > <div class="alert" id="IDNErr"></div>
+            
+            
+            *Phone Number<input type = "text" name = "phone" placeholder="Enter Phone Number" id="phone"  ><div class="alert" id="PNErr"></div>
+            
+            
+            
+            
+            <input type="checkbox" id="EmailCon" name="" <label>Check this Box for an Email Confirmation</label><br><br>
+			Email ID<input type ="text" name="mail" placeholder="Enter Email" id="mail"  ><div class="alert" id="PNErr"></div> 
+            <br><br>
+			<label for "Transc" >Transaction Menu:</label>
+            <select name="transc" id="transc">
+                <option>Choose a transaction</option>
+                <option value="Search A Stylist's Account" id="search">Search A Stylist's Account</option>
+                <option value="Book a Client Appointment" id="book">Book a Client Appointment</option>
+                <option value="Place A Client's Order" id="order">Place A Client's Order</option>
+                <option value="Update's a Client's Order" id="update">Update's a Client's Order</option>
+                <option value="Cancel a Client's Appointment" id="CancelApp">Cancel a Client's Appointment</option>
+                <option value= "Cancel a Client's Order" id="CancelOrder">Cancel a Client's Order</option>
+                <option value= "Create a New Client's Account" id="CancelAccount">Create a New Client's Account</option>
+            </select>
+			  <br><br>
+            <button type="button" value = "Submit" id="check" onclick = "Validate()"> Submit </button> 
+            <input type="reset" name=" " id="reset1"> </input>
+          
+            
+                    
+                    
+                    
+                    
+                    
+            </form> </div>
+			</body>
+			</html>
