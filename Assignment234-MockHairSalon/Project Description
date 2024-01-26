@@ -1,0 +1,34 @@
+# Hair Salon Management System
+
+Welcome to the Hair Salon Management System GitHub repository! This web application is designed for efficient management of a hair salon, providing robust functionalities for both employees and clients. Built using MySQL for database management and PHP for server-side scripting, this project introduces comprehensive features to streamline salon operations.
+
+## Features:
+
+- **User Authentication:**
+  - Secure sign-up and login functionalities for both employees and clients ensure data privacy.
+
+- **Data Management:**
+  - Utilizes MySQL to manage critical salon data, including employee details, client information, and appointment schedules.
+
+- **CRUD Operations:**
+  - Employs Create, Read, Update, and Delete (CRUD) queries to allow easy manipulation of data.
+    - Create: Add new employee records, client details, and appointments.
+    - Read: Retrieve information on employees, clients, and appointments.
+    - Update: Modify existing records, such as employee details or appointment timings.
+    - Delete: Remove outdated or irrelevant data from the system.
+
+- **Employee Management:**
+  - Efficiently manage employee records, including personal details, work schedules, and specific roles within the salon.
+
+- **Client Information:**
+  - Keep track of client details, preferences, and appointment history for personalized services.
+
+- **Appointment Booking:**
+  - Enable clients to schedule appointments conveniently, reducing wait times and enhancing the overall salon experience.
+
+## Technologies Used:
+
+- **MySQL:** Powerful relational database management system for data storage and retrieval.
+- **PHP:** Server-side scripting language to handle dynamic content and interact with the MySQL database.
+- **HTML/CSS:** Front-end design for a user-friendly and visually appealing interface.
+
