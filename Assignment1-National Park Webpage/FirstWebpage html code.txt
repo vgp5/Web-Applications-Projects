@@ -1,0 +1,222 @@
+<!DOCTYPE html> 
+ 
+<html lang="en">
+
+       
+        
+        
+     
+	<head>
+		<title>Purnululu National Park</title>
+		<meta content="text/html; charset=UTF-8"/>
+        	<link rel="stylesheet" href="style.css" type="text/css"/>
+        
+
+	</head>
+	 <body>
+	<h1> <img src = "purnulogo.png" width = "75" height = "75" alt="logo"/>
+            PURNULULU NATIONAL PARK
+           
+        </h1>
+	
+        <h5 class="location">Location: 300km S of Kununurra, Western Australia</h5>
+        <h6 class="year"> Year Established: 1987 <br> Year of Inscription as World Heritage Site: 2003 </h6>
+        <h4 class="time">Open during: April-October (The park is closed during wet season for safety precautions) <br> Daily: 
+         8am-12pm;
+         1pm-4pm (Weather may affect hours)</h4>
+        
+        <h2 class="sig">Significance of Purnululu National Park and it's Nomination as a UNESCO Site</h2>
+        <p class = "p1"> Purnululu National Park contains a cone karst formation of sandstone that is not only unique globally, but also not completely understood by geologists.
+         Its extremely beautiful scenic views makes it attractive to the locals and tourists. The Gija, (also spelt Gidja and Kija) are
+         aboriginal people also used to live in the reserve for almost 40,000 years. The site covers almost 240,000 Hectares of area of wildness. 
+         The cone karst have eroded for more than 20 million years that evolved into beautiful geological interest. 
+         The beehive shaped cones are around 820 feet high and covered with striped orange and black shells. 
+         As for protection and management, Purnululu is closed during wet season for the safety of tourists and locals. 
+         While wildfires are also controlled and prevented strictly.
+         
+        </p>
+         
+        <br> <p> Click on the image below to see other pictures </p>
+        
+        <a href="https://whc.unesco.org/en/list/1094/gallery/" target="_blank">  <img src = "ConeCarst.png" width = "400" height = "350" alt= "conecarst"/>  </a>
+        
+
+        <p class = "p1" > Purnululu Park satisfied the criterion of being a UNESCO site. Its remains are relatively inaccessible, 
+            while its ability to attract tourists is also a key factor. 
+            The diversity in wildlife and plants were also considered as the conservation of these species have been conserved in an outstanding fashion.
+            The cone karst formation stands out from any other in the world due to the geological, biological, erosional and climatic phenomena; 
+            The formation is still isn't understood by scientists. Moreover, Purnululu holds a strong integrity when it comes to preserving different species and land itself.
+            Its strict measures and incorporation in security enhances both the park and the environment. 
+            It also gives tourists an alluring experience. With these factors, Purnululu successfully categorized as a UNESCO site.            
+
+       
+       
+        </p>
+        
+        <table>
+            <caption>ENTRANCE FEES</caption>
+            <tr>
+                <th> Type </th>
+                <th> Regular Adults (16 and Older) </th>
+                <th> Children (6-15 years old) </th>
+                <th> Concession </th>
+     	    </tr>
+            <tr>
+                <td> Walk or Cycle in the park </td>
+                <td> FREE </td>
+                <td> FREE </td>
+                <td> FREE </td>  
+            </tr>
+        
+            <tr>
+                <td> Private vehicle with up to 12 occupants </td>
+                <td> $15 per vehicle </td>
+                <td> ... </td>
+                <td> $8 per vehicle </td>
+           </tr>
+            
+            <tr>
+                <td> Private vehicle with more than 12 occupants </td>
+                <td> $7 per occupant </td>
+                <td> ... </td>
+                <td> $2.50 per person </td>
+            </tr>
+            
+
+
+            <tr>
+                <td> Motocycle </td>
+                <td> $8 per motorcycle </td>
+                <td> ... </td>
+                <td> ... </td>
+                </tr>
+            </table>
+            <br> <br>
+            
+	    <table>
+                <br>
+            <caption> CAMPING FEES </caption>
+            
+            <tr>
+                <th> Type </th>
+                <th> Regular Adults (16 and Older) </th>
+                <th> Children (6-15 years old) </th>
+                <th> Concession </th>
+            </tr>
+            
+	    <tr> 
+                <td> Per Night without facilities </td>
+                <td> $13 </td>
+                <td> $3 </td>
+                <td> $10 </td>
+            </tr>
+
+            <tr> 
+                <td> Per Night with facilities such <br> as picnic tables, toilets, ablutions,<br> barbecues, showers or shelters</td>
+                <td> $17</td>
+                <td> $3 </td>
+                <td> $12 </td>
+            </tr>
+           
+            
+            </table>
+
+                
+                
+                
+        
+        
+        
+
+        
+        <h3 class="things"> Things to do/Activities/Events</h3>
+        <li> Camping: To book online,  <a class="book" href="https://parkstaybookings.dbca.wa.gov.au/" target="_blank"> click here </a> </li>
+        <li> Bushwalking </li>
+        <li> Hiking on the Piccanniny Creek </li>
+        <li> Cycling </li>
+        <li> Sight-Seeing </li>
+        <li> Photography </li>
+        <h4 class="if">Interesting Facts </h4>
+        <ol>
+            <li> The area of Purnululu Park is greater than the capital of Australia
+                <ul> <li> Purnululu Park covers about 925 Square Miles of <br> beautiful scenic views while the Australian Capital covers about 910 Square Miles of Area</li> </ul>
+            </li> 
+            <li> The iconic black and orange striped beehive shaped domes </li>
+                <ul> 
+		<li> One thing that scientists can't explain is the detailed formation of the iconic cone karst colored in black and orange. </li>
+                <li>  Domes are striped and look like the skin of a tiger.</li>
+                <li>  While the complex geological formation of the overall park was resulted by <br> millions of years of corrusion, scientists still can't explain how exactly the domes were formed and how they are evolving <br> </li>
+                <li>  The interior of the domes are made of sandstones that is protected by the outer hard shell.</li>
+                </ul>
+            <li> 3500 Million Years Old Cyanobacteria </li>
+                <ul> <li> Single-Celled Organisms called Cyanobacteria were found as fossils on the rocks of Purnululu which also stabilise the sandstone. </li>
+                </ul>
+                <img src = "interior.jpeg" width = "250" height = "200" alt="int"/>
+            
+        </ol>
+
+        <h3 class="FFLAA"> Fauna/Floral Life and Animal/Aquatic Life </h3>
+
+        <ul>
+          <li> The animal data of the park depicts species from both the desert and savannah ecosystems. 
+              There are also various types of snake species including Python and three of the most venomous snakes in Australia (King Brown, the Western Brown and the Northern Death Adder). 
+              <br> The data of 298 vertabrates is as follows: </li>
+            <ol type="i">
+                <li> 41 mammals </li>
+                <li> 149 birds such as:
+                    <ul class="species"> <li> Zebra Finch </li>
+                        <li> Red-Winged Parrot </li>
+                        <li> Rainbow Bee-eater </li>
+		<img src = "rainbowbee.jpeg" width = "250" height = "200" alt="rainbow"/>
+                    </ul>
+                </li>
+                <li> 81 reptiles such as:
+                    <ul class="species"> 
+			<li> Monitors </li>
+                        <li> Lizards </li>
+                        <li> Goannas </li>
+                        <li> Skinks </li> </ul> 
+			</li>
+                <li> 12 frogs </li>
+                <li> 15 fish </li>
+            </ol>
+            
+
+            <li> The floral data of the park depicts approximately 653 plant species with around 17 vegetation communities effectively adapted to moisture. 
+                 The most common plant found in the open woodland area of the park is spicy hummock grass. 
+                 <br> The data of 653 plant species (Monocotyledons and Dicotyledons categorized as higher plants) is as follows: </li>
+                 <ol type = "i">
+                     <li> 8 Lower Plants such as:
+                         <ul class="species"> <li> Algae </li>
+                            <li> Bryophytes </li>
+                            <li> Fungi </li> </ul>
+                    </li>
+
+                    <li> 17 Fern and Fern Allies </li>
+                    <li> Dicotyledons such as:
+                        <ul class="species"> <li> Acanthaceae</li>
+                            <li> Capparaceae </li>
+                            <li> Haloragaceae </li>
+                            <li> Myrtaceae </li>
+                        </ul>
+                    <li> Monocotyledons such as:
+                        <ul class="species"> 
+			    <li> Cyperaceae </li>
+                            <li> Poaceae </li>
+                            <li> Eriocaulaceae </li>
+                        </ul>
+                    
+		</li>
+                        
+                
+        </ol>
+
+
+        
+        
+
+        
+        
+		
+	</body>
+</html>

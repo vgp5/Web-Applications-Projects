@@ -1,0 +1,69 @@
+body 
+{
+    background-color:seashell;
+    
+}
+
+    h1 {
+        text-align: center;
+        color:green;
+        font-family: fantasy ;
+    }
+
+    .location {
+        font-family: 'Courier New', Courier, monospace;
+        color: teal;
+    }
+
+    .time {
+        background-color: wheat;
+        color:brown;
+    }
+    .things{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h3{
+        background-color: peachpuff;
+    }
+
+    .book {
+        background-color: burlywood;
+    }
+    .if{
+        background-color: lavender;
+        font-family: cursive;
+    }
+
+    .FFLAA{
+        background-color:mediumaquamarine;
+        font-family: monospace;
+        }
+    .sig{
+        color: goldenrod;
+    }
+
+    .p1{
+        color: green;
+    }
+    
+
+     td,th,tr {
+            border: 3px solid black;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+            
+            }
+.species{
+    font-style: italic;
+}
+caption{
+    background-color: gainsboro;
+    border: 3px solid black;
+    
+}
+.year{
+    color: tomato;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
