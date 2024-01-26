@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Assignment 5</title>
+</head>
+<body onload="getNames()">
+    <div class="container">
+        <h1 style="text-align: center">Chat System</h1>
+     </div> <br>  
+        <div class="chat1">
+            <label for="name1" style = "color: black; font-weight: bold; display: block; width: 150px; float: left;margin: 5px 5px 5px 5px;">Enter your Name:</label>
+            <input name="name1" id="name1" type="text"><br><br>
+            <label for="password" style="color: black; font-weight: bold; display: block; width: 150px; float: left;margin: 5px 5px 5px 5px;">Enter your Password:</label>
+            <input name="password" id="password" type="text"><br><br>
+           
+            <textarea onkeyup="updateMessage(document.getElementById('name1').value, document.getElementById('password').value, this.value)" name="content" id="content1" placeholder="Enter message here"  ></textarea><br>
+            <input name="error" id="error" type="text" >
+        </div>
+		<br><br>
+        <div class="chat2">
+            <label for="name2" style = "color: black; font-weight: bold; display: block; width: 150px; float: left;margin: 5px 5px 5px 5px;">Enter a valid name: </label>
+            <input name="name2" id="name2" type="text" onkeyup="listenMessage(document.getElementById('name2').value)"> <br><br>
+            <textarea name="content2" id="content2" ></textarea>
+        
+    </div>
+</body>
+
+
+<script>
+    function updateMessage(name, password, content) {
+        
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                console.log(this.responseText);
+                document.getElementById('error').value = this.responseText;
+            }
+        };
+        xmlhttp.open("GET", "message.php?type=write&name=" + name + "&password=" + password + "&content=" + content, true);
+        xmlhttp.send();
+		
+	}
+	setTimeout(updateMessage, 8000, 'name', 'password', 'content');
+	
+
+    var interval = null;
+    function listenMessage(name) {
+        if(name == '') return;
+        
+        var xmlhttp2 = new XMLHttpRequest();
+        xmlhttp2.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                console.log(this.responseText);
+                document.getElementById('content2').value = this.responseText;
+            }
+		
+        };
+
+        clearInterval(interval);
+        interval = setInterval(function () {
+            xmlhttp2.open("GET", "message.php?type=read&name=" + name, true);
+            xmlhttp2.send();
+        }, 500);
+    }
+	
+	setTimeout(listenMessage, 8000, 'name');
+	
+	
+
+    function getNames() {
+        
+        var xmlhttp3 = new XMLHttpRequest();
+        xmlhttp3.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                console.log(this.responseText);
+                document.getElementById('names').innerHTML = this.responseText;
+            }
+        };
+        xmlhttp3.open("GET", "message.php?type=name", true);
+        xmlhttp3.send();
+    }
+</script>
+
+<style>
+    body{
+	
+		background-color:green;
+	}
+	.container  {
+        font-family: cursive;
+        margin: auto;
+        background: blue;
+        color: white
+        border-radius: 24px;
+        
+             
+    }
+	
+	 
+	
+	.chat1 input[type="text"] {
+		font-family:cursive;
+		
+		
+		padding-left:10px;
+		
+		text-align: center;
+		border: 3px solid blue;
+		margin:5px 5px 5px 5px;
+		color: black;
+		border-radius:24px;
+	
+	}
+	
+	.chat1:hover{
+		background: rgb(218, 165, 32, 0.8);
+		}
+	
+	#content1, #content2{
+		margin:5px 5px 5px 5px;
+		border-radius:24px;
+		border: 3px solid blue;
+	}
+	
+	#content1:hover{
+		border: 3px solid lightgreen;
+	}
+	
+	#content2:hover{
+		border: 3px solid lightgreen;
+	}
+	
+	
+	
+	
+	.chat2 input[type="text"] {
+		font-family:cursive;
+		
+		
+		padding-left:10px;
+		
+		text-align: center;
+		border: 3px solid blue;
+		margin:5px 5px 5px 5px;
+		color: black;
+		border-radius:24px;
+	
+	}
+	
+	.chat1 input[type="text"]:hover{
+		border: 3px solid lightgreen;
+		
+		}
+	
+	.chat2 input[type="text"]:hover{
+		border: 3px solid lightgreen;
+		
+		}
+	
+	
+	.chat2:hover{
+		background: rgb(211,211,211,0.8);
+		}
+
+    .chat1 {
+        background: goldenrod;
+    }
+
+    .chat2 {
+        background: lightgray;
+       
+    }
+
+    
+
+    
+</style>
+
+</html>
